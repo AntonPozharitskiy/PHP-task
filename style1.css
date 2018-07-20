@@ -1,0 +1,93 @@
+.heading{
+    width: 75%;
+    margin: 30px auto;
+    text-align: center;
+    color:  #6B8E23;
+    background: #FFF8DC;
+    border: 2px solid #6B8E23;
+    border-radius: 20px;
+}
+form {
+    width: 75%; 
+    margin: 30px auto; 
+    border-radius: 5px; 
+    padding: 10px;
+    background: #FFF8DC;
+    border: 1px solid #6B8E23;
+}
+form p {
+    color: red;
+    margin: 0px;
+}
+.task_input {
+    width: 75%;
+    height: 15px; 
+    padding: 10px;
+    border: 2px solid #6B8E23;
+}
+.add_btn {
+    height: 39px;
+    background: #FFF8DC;
+    color:  #6B8E23;
+    border: 2px solid #6B8E23;
+    border-radius: 5px; 
+    padding: 5px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+    font-size: 19px;
+    color: #6B8E23;
+}
+
+th, td{
+    height: 30px;
+    padding: 10px;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+}
+
+.delete{
+    text-align: center;
+}
+.delete a{
+    color: white;
+    background: #a52a2a;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.text {
+    font-family: Trebuchet MS; 
+    font-size: 10px; 
+    color: gray;
+}
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.divdate {
+    text-align: right; 
+    font-family: Trebuchet MS; 
+    font-size: 10px; 
+    color: gray;
+}
+.divtask {
+    text-align: left; 
+    font-family: Times New Roman; 
+    font-style: bold; 
+    font-size: 40px;
+}
